@@ -1,9 +1,14 @@
 import './App.css';
+import Header from './components/Header'
+import LinkContainer from './components/LinkContainer';
 
 function App() {
   return (
-    <div className="bg-white">
-      <h1 className=' text-red-400'>Hello world</h1>
+    <div className="bg-white container mx-auto ">
+      {/* header */}
+      <Header/>
+      {/* links */}
+      <LinkContainer/>
     </div>
   );
 }
