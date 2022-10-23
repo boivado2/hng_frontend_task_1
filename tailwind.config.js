@@ -6,12 +6,15 @@ module.exports = {
   theme: {
     extend: {
 
-    },
-
-    colors: {
+      colors: {
+            
       'custom-gray': "#EAECF0",
       "custom-text-black": '#101828'
     }
+
+    },
+
+
   },
   plugins: [],
 }
