@@ -13,7 +13,7 @@ const links = [
 ]
 function LinkContainer() {
   return (
-    <div className="flex flex-col justify-center items-center gap-4 p-8">
+    <div className="flex flex-col justify-center items-center gap-4 p-8 max-w-[800px] mx-auto">
       {
         links.map(link => (
           <Link key={link.id} data={link} />
