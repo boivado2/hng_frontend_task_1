@@ -3,6 +3,17 @@
 @tailwind utilities;
 
 
+#profile_img_container:hover #camera_icon {
+
+  visibility:visible;
+}
+
+#profile_img_container:hover #overlay {
+  visibility:visible;
+
+}
+
+
 .App {
   text-align: center;
 }
