@@ -8,7 +8,7 @@ import githubSvg from './components/assests/Social icon.svg'
 function App() {
   return (
     <>
-      <div className="bg-white container mx-auto ">
+      <div className="bg-white container mx-auto font-custom-open-sans">
         
       {/* header */}
         <Header />

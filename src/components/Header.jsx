@@ -22,7 +22,7 @@ function Header() {
 
       </div>
       
-      <div id='profile_img_container' className=' relative'>
+      <div id='profile_img_container' className=' cursor-pointer relative'>
         <img src={profile_url} id="profile_url" className=' w-28 h-28 rounded-full' alt='profile_url' />
         <img src={cameraIcon} id="camera_icon" alt='camera-icon' className=' invisible absolute top-16 left-[40%]' />
         <Overlay styles=" rounded-full invisible"/>
