@@ -2,12 +2,12 @@ import React from 'react'
 import Link from './Link'
 
 const links = [
-  { id: 'twitter', name : "twitter", link : "https://twitter.com/ayi_dev"},
-  { id: "btn_zuri", name : "zuri team", link : "https://training.zuri.team"},
+  { id: 'twitter_link', name : "twitter", link : "https://twitter.com/ayi_dev"},
+  { id: "btn__zuri", name : "zuri team", link : "https://training.zuri.team"},
   { id: "books", name : "zuri books", link : "https://books.zuri.team"},
-  { id: "book_python", name : "python books", link : "https://books.zuri.team/python-for-beginners?ref_id=boivado2"},
+  { id: "book__python", name : "python books", link : "https://books.zuri.team/python-for-beginners?ref_id=boivado2"},
   {id: "pitch", name: "background check for coders", link: "https://background.zuri.team" },
-  {id: "book_design", name : "design books", link : "https://books.zuri.team/design-rules"},
+  {id: "book__design", name : "design books", link : "https://books.zuri.team/design-rules"},
 
 
 ]
