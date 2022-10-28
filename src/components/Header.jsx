@@ -13,17 +13,17 @@ function Header() {
       <div className=' absolute top-[15%] right-[10%] md:right-[20%]'>
 
         <a href='https://github.com/boivado2' target="_blank" rel="noopener noreferrer">
-        <img src={share_arrow_icon} id="share-arrow-icon" className=' w-10 h-10 rounded-full hidden md:block' alt='share-icon' />      
+        <img src={share_arrow_icon} id="share-arrow-icon" className='hover:bg-custom-gray-100 w-10 h-10 rounded-full hidden md:block' alt='share-icon' />      
       </a>
           
           <a href='https://slack.com/John' target="_blank" rel="noopener noreferrer">
-                  <img src={share_dot_icon} id="share-dot-icon" className=' w-8 h-8 rounded-full md:hidden' alt='share-icon' />
+                  <img src={share_dot_icon} id="share-dot-icon" className=' w-8 h-8 rounded-full md:hidden hover:bg-custom-gray-100' alt='share-icon' />
         </a>
 
       </div>
       
       <div id='profile_img_container' className=' cursor-pointer relative'>
-        <img src={profile_url} id="profile_url" className=' w-28 h-28 rounded-full' alt='profile_url' />
+        <img src={profile_url} id="profile_url" className=' w-28 h-28 rounded-full' alt='profile_url ' />
         <img src={cameraIcon} id="camera_icon" alt='camera-icon' className=' invisible absolute top-16 left-[40%]' />
         <Overlay styles=" rounded-full invisible"/>
 
