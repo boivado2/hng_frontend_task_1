@@ -18,9 +18,9 @@ function App() {
       </div>
       
       <div className='flex justify-center items-center gap-4 pb-9 pt-4'>
-        <a href='https://slack.com/boivado2' target="_blank" rel="noopener noreferrer"><img className='' src={slackSvg} alt="slack-icon" /></a>
+          <img className='' src={slackSvg} alt="slack-icon" />
         
-        <a href='https://github.com/boivado2' target="_blank" rel="noopener noreferrer"><img className='' src={githubSvg}  alt="github-icon"/></a>
+          <img className='' src={githubSvg} alt="github-icon" />
       </div>
       
 
