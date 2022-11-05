@@ -1,9 +1,12 @@
-import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header'
 import LinkContainer from './components/LinkContainer';
 import slackSvg from './components/assests/slack.svg'
 import githubSvg from './components/assests/Social icon.svg'
+import './App.css';
+import Contacts from './components/Contacts';
+
+
 
 function App() {
   return (
@@ -22,6 +25,7 @@ function App() {
         
           <img className='' src={githubSvg} alt="github-icon" />
       </div>
+
       
 
     {/* footer */}
