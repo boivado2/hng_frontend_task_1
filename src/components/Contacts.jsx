@@ -20,8 +20,8 @@ function Contacts() {
         <div className='flex flex-col justify-center gap-6 mt-14'>
 
           <fieldset className='grid grid-cols-1 md:grid-cols-2 gap-4 '>
-            <Input required={true} type="text" name="first_name" label="First Name" placeholder='Enter your first name' />
-            <Input required={true} type="text" name="last_name" label="Last Name" placeholder='Enter your last name'/>
+            <Input required={true} type="text" name="first_name" label="First name" placeholder='Enter your first name' />
+            <Input required={true} type="text" name="last_name" label="Last name" placeholder='Enter your last name'/>
           </fieldset>
 
           <fieldset className=' flex flex-col gap-4'>
@@ -32,7 +32,7 @@ function Contacts() {
           </fieldset>
 
 
-          <Button label="Send Message" type="submit" styles="bg-custom-blue-100"/>
+          <Button label="Send Message" type="submit" styles="bg-custom-blue-100 text-white hover:bg-custom-blue-200"/>
         </div>
       </form>
     </div>
