@@ -7,20 +7,29 @@ import githubSvg from './assests/Social icon.svg'
 function Home() {
   return (
     <>
-          <div className="bg-white container mx-auto font-custom-open-sans">
+      <div className="">
         
         {/* header */}
-          <Header />
+
+        <Header />
+        
           
         {/* links */}
-        <LinkContainer/>
-        </div>
+
+        <LinkContainer />
         
-        <div className='flex justify-center items-center gap-4 pb-9 pt-4'>
-            <img className='' src={slackSvg} alt="slack-icon" />
+      </div>
+      
+        
+      <div className='flex justify-center items-center gap-4 pb-9 pt-4'>
+        
+        <img className='' src={slackSvg} alt="slack-icon" />
+        
           
-            <img className='' src={githubSvg} alt="github-icon" />
-        </div>
+        <img className='' src={githubSvg} alt="github-icon" />
+        
+      </div>
+      
     </>
   )
 }

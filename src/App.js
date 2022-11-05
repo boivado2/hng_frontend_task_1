@@ -14,11 +14,11 @@ const router = createBrowserRouter(createRoutesFromElements(
 
 function App() {
   return (
-    <>
+    <div className='bg-white container mx-auto font-custom-open-sans'>
       <RouterProvider router={router} />  
       {/* footer */}
       <Footer />
-    </>
+    </div>
   );
 }
 
